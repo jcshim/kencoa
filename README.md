@@ -21,8 +21,8 @@ kencoa
     xx <- seq(sd, fd, length=11)
     lines(xx, predict(fit1, data.frame(x=xx)), col="red")
     lines(xx, predict(fit2, data.frame(x=xx)), col="black")
-#    lines(xx, predict(fit3, data.frame(x=xx)), col="blue")
-#    lines(xx, predict(fit4, data.frame(x=xx)), col="purple")
+    #    lines(xx, predict(fit3, data.frame(x=xx)), col="blue")
+    #    lines(xx, predict(fit4, data.frame(x=xx)), col="purple")
 
     grid(lty=1, lwd=1, col='gray')
 
